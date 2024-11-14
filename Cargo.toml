@@ -1,0 +1,8 @@
+[package]
+name = "Elliptic_Curve_Point_Addition_and_Point_Doubling_over_a_Finite_Field"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+num-bigint = "0.4.0"
+num-traits = "0.2.14"
