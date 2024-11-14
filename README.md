@@ -56,3 +56,42 @@ fn main() {
     let result_double = curve.double_point(p1);
     println!("2 * p1 = {:?}", result_double);
 }
+```
+## Requirements
+- To get started, ensure you have [Rust](https://www.rust-lang.org/tools/install) installed on your machine. You can then clone the repository and build the project.
+
+## Installation
+
+1. **Clone the repository**:
+    ```bash
+    git clone https://github.com/cypriansakwa/Elliptic_Curve_Point_Addition_and_Point_Doubling_over_a_Finite_Field.git
+    cd Elliptic_Curve_Point_Addition_and_Point_Doubling_over_a_Finite_Field
+    ```
+
+2. **Build the project**:
+    ```bash
+    cargo build
+    ```
+
+3. **Run the program**:
+    ```bash
+    cargo run
+    ```
+
+## Usage
+
+To execute the program, simply run:
+
+```bash
+cargo run
+```
+## Example Output
+For the elliptic curve $y^2 \equiv x^3 + 4x + 4 \pmod{313}$ where $P1=(274,288)$ and $P2=(159,45)$, it outputs:
+```
+Is p1 on the curve? true
+Is p2 on the curve? true
+p1 + p2 = Point { x: Some(49), y: Some(133) }
+2 * p1 = Point { x: Some(51), y: Some(45) }
+```
+## Contributing
+Contributions are welcome! If you find a bug or have suggestions for improvements, please open an issue or submit a pull request.
